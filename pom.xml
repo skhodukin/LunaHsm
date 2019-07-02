@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>luna</name>
     <description>Demo project for Luna AES</description>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>11</java.version>
