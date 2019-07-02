@@ -8,18 +8,33 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.example</groupId>
-    <artifactId>luna</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>LunaHsm</artifactId>
+    <version>1</version>
     <name>luna</name>
     <description>Demo project for Luna AES</description>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <properties>
         <java.version>11</java.version>
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+<!--
+        <dependency>
+            <groupId>com.safenet-inc</groupId>
+            <artifactId>luna-provider</artifactId>
+            <version>5.4.1-2</version>
+            <scope>provided</scope>
+        </dependency>
+-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
